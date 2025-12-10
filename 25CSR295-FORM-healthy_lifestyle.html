@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Healthy Lifestyle Registration Form</title>
+</head>
+<body bgcolor="lightyellow">
+
+    <h1><center>Healthy Lifestyle Registration Form</center></h1>
+    <hr>
+
+    <form>
+	<fieldset>
+
+        <label>Name:</label><br>
+        <input type="text" name="name" maxlength="15" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age" min="1" max="100"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="text" name="phone"><br><br>
+
+        <label>Preferred Activity:</label><br>
+        <select name="activity">
+            <option>Yoga</option>
+            <option>Walking</option>
+            <option>Gym Workout</option>
+            <option>Meditation</option>
+            <option>Cycling</option>
+        </select>
+        <br><br>
+
+        <label>Healthy Habits You Follow:</label><br>
+        <input type="checkbox" name="habits" value="Fruits"> Eat Fruits<br>
+        <input type="checkbox" name="habits" value="Water"> Drink Enough Water<br>
+        <input type="checkbox" name="habits" value="Sleep"> Get 8 Hours Sleep<br>
+        <input type="checkbox" name="habits" value="Exercise"> Exercise Daily<br><br>
+
+        <label>Why do you want to join this program?</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Register">
+	   <input type="reset" value="Reset">
+	</fieldset>
+    </form>
+
+</body>
+</html>
